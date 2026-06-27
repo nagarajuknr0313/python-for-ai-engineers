@@ -72,5 +72,8 @@ python-for-ai-engineers/
 - Explore [content/level1/README.md](content/level1/README.md)
 - Continue through the remaining levels in the content folder
 
+## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md) for setup and contribution guidance.
+
 ## Notes
 All examples are designed to be original and domain-specific to AI engineering workflows.
