@@ -1,6 +1,6 @@
 # Python for AI Engineers
 
-![Python Tests](https://github.com/OWNER/REPOSITORY/actions/workflows/python-tests.yml/badge.svg)
+![Python Tests](https://github.com/nagarajuknr0313/python-for-ai-engineers/actions/workflows/python-tests.yml/badge.svg)
 
 A completely original, project-based course repository that teaches Python through AI, LLM, RAG, embeddings, agents, and product development use cases.
 
