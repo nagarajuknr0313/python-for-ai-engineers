@@ -12,6 +12,14 @@ A moderation pipeline can inspect incoming prompts and detect which unique token
 3. Print the resulting unique tokens.
 4. Use the set as a lightweight vocabulary summary.
 
+## Run this concept locally
+1. Open a terminal in the repository root.
+2. Run the example with:
+   ```bash
+   python content/level1/unique_tokens_sets.py
+   ```
+3. The output will show the unique tokens collected from the text.
+
 ## Exercises
 - Add a repeated token and verify it is not duplicated.
 - Create a set for a second prompt and compare them.

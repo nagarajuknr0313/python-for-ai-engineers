@@ -12,6 +12,14 @@ A support copilot can keep a list of user and assistant messages so it can track
 3. Iterate through the list and print each message.
 4. Use the list to simulate a conversation memory.
 
+## Run this concept locally
+1. Open a terminal in the repository root.
+2. Run the example with:
+   ```bash
+   python content/level1/chat_history_lists.py
+   ```
+3. The script will print the conversation history as a list of turns.
+
 ## Exercises
 - Add a third turn to the history.
 - Change the assistant response style.

@@ -12,6 +12,14 @@ A product support system might convert customer feedback into vectors to group s
 3. Print the vector to inspect its structure.
 4. Use the vector as a starting point for similarity analysis.
 
+## Run this concept locally
+1. Open a terminal in the repository root.
+2. Run the example with:
+   ```bash
+   python content/level1/embeddings_and_vectors.py
+   ```
+3. The script will print a small vector-like output for the provided idea.
+
 ## Exercises
 - Create a vector for a second idea and compare its shape.
 - Add a third numeric feature to the embedding.

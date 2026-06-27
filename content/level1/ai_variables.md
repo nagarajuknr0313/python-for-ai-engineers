@@ -12,6 +12,15 @@ A product team may track experiment metadata such as a model name, version numbe
 3. Record whether the pipeline is ready as a boolean.
 4. Print the collected metadata for inspection.
 
+## Run this concept locally
+1. Open a terminal in the repository root.
+2. Create and activate a virtual environment if needed.
+3. Run the example with:
+   ```bash
+   python content/level1/ai_variables.py
+   ```
+4. You should see the model metadata printed in the terminal.
+
 ## Exercises
 - Add a new variable for token budget.
 - Change the model name and rerun the example.

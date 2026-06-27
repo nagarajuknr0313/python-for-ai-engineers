@@ -12,6 +12,14 @@ A content generation assistant can use dictionaries to keep the task, tone, and 
 3. Print the final prompt payload.
 4. Reuse the structure for other prompts.
 
+## Run this concept locally
+1. Open a terminal in the repository root.
+2. Run the example with:
+   ```bash
+   python content/level1/prompt_templates_dicts.py
+   ```
+3. The script will print the prompt payload as a dictionary.
+
 ## Exercises
 - Add a new key for audience.
 - Build a second prompt with a different tone.
