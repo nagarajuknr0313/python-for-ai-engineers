@@ -1,4 +1,8 @@
-"""Decorators for logging AI requests."""
+"""Decorators for logging AI requests.
+
+Decorators wrap a function with extra behavior. In this example, the
+wrapper logs the input and output of a prompt submission function.
+"""
 
 from __future__ import annotations
 
@@ -17,6 +21,7 @@ def log_request(func):
 
 @log_request
 def submit_prompt(prompt: str) -> str:
+    """Simulate processing a prompt."""
     return f"processed:{prompt}"
 
 
