@@ -1,4 +1,8 @@
-"""A compact retrieval-augmented generation example for support copilots."""
+"""A compact retrieval-augmented generation example for support copilots.
+
+RAG systems first split documents into chunks, then retrieve the most relevant
+pieces before generating a response.
+"""
 
 from __future__ import annotations
 
@@ -8,6 +12,8 @@ def chunk_text(text: str, size: int) -> list[str]:
     words = text.split()
     if size <= 0:
         raise ValueError("size must be positive")
+
+    # Build one chunk from each group of words.
     return [" ".join(words[index : index + size]) for index in range(0, len(words), size)]
 
 

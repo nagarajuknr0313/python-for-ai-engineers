@@ -1,4 +1,8 @@
-"""A tiny neural network-inspired example for AI learners."""
+"""A tiny neural network-inspired example for AI learners.
+
+This simple function mirrors the core computation of a single neuron: a
+weighted input plus a bias.
+"""
 
 from __future__ import annotations
 
@@ -9,4 +13,7 @@ def predict(input_value: float, weight: float, bias: float) -> float:
 
 
 if __name__ == "__main__":
-    print(predict(2.0, 0.5, 1.0))
+    value = 2.0
+    weight = 0.5
+    bias = 1.0
+    print(f"Prediction: {predict(value, weight, bias)}")

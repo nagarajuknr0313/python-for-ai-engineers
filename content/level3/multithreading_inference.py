@@ -1,4 +1,8 @@
-"""A simple multithreading example for inference workloads."""
+"""A simple multithreading example for inference workloads.
+
+Threads can help process several lightweight tasks at the same time. In this
+example, we simulate inference for a short batch of items.
+"""
 
 from __future__ import annotations
 
@@ -13,8 +17,10 @@ def infer_item(item: str) -> str:
 def run_batch_inference(items: list[str]) -> list[str]:
     """Run inference for a batch of items using threads."""
     with ThreadPoolExecutor(max_workers=2) as executor:
+        # map applies the function to each item concurrently.
         return list(executor.map(infer_item, items))
 
 
 if __name__ == "__main__":
-    print(run_batch_inference(["a", "b"]))
+    requests = ["a", "b", "c"]
+    print(run_batch_inference(requests))

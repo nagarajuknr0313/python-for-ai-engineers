@@ -1,4 +1,8 @@
-"""Simple planning agent workflow for AI engineering tasks."""
+"""Simple planning agent workflow for AI engineering tasks.
+
+This example models a planner agent that breaks a request into a few clear
+steps before any final action is taken.
+"""
 
 from __future__ import annotations
 
@@ -11,6 +15,7 @@ class PlannerAgent:
         words = task.split()
         if not words:
             return []
+
         return [
             f"Inspect the context for: {task}",
             "Identify the key constraints",
@@ -20,4 +25,5 @@ class PlannerAgent:
 
 if __name__ == "__main__":
     agent = PlannerAgent()
-    print(agent.plan("research the new model launch"))
+    task = "research the new model launch"
+    print(agent.plan(task))

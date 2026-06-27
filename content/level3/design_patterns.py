@@ -1,4 +1,8 @@
-"""Simple design patterns commonly used in AI systems."""
+"""Simple design patterns commonly used in AI systems.
+
+The strategy pattern lets us swap behaviors without changing the rest of the
+code. Here, the builder uses a prompt strategy to construct different outputs.
+"""
 
 from __future__ import annotations
 

@@ -1,4 +1,8 @@
-"""A small multi-agent workflow example."""
+"""A small multi-agent workflow example.
+
+Different agents can take on different roles in a workflow. Here, one agent
+collects findings while another turns them into a draft report.
+"""
 
 from __future__ import annotations
 

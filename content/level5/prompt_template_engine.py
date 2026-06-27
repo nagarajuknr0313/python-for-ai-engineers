@@ -1,4 +1,8 @@
-"""A simple prompt template engine for GenAI workflows."""
+"""A simple prompt template engine for GenAI workflows.
+
+Prompt templates help standardize how requests are assembled before sending
+them to a language model.
+"""
 
 from __future__ import annotations
 
@@ -9,4 +13,5 @@ def render_prompt(task: str, tone: str) -> str:
 
 
 if __name__ == "__main__":
-    print(render_prompt("support", "urgent"))
+    prompt = render_prompt("support", "urgent")
+    print(prompt)
