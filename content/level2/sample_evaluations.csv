@@ -1,0 +1,3 @@
+prompt,expected_label
+"Summarize the incident for the coordinator.",support
+"Draft a follow-up note for a customer.",customer_success
